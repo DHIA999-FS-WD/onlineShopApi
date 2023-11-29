@@ -10,9 +10,9 @@ const productRoute = require("./routes/productRoute");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
-    methods: ["POST", "GET", "DELETE", "PUT"],
-    credentials: true,
+    // origin: ["http://localhost:5173"],
+    // methods: ["POST", "GET", "DELETE", "PUT"],
+    // credentials: true,
   })
 );
 const PORT = process.env.PORT || 4000;
